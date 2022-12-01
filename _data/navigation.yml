@@ -2,6 +2,8 @@
   link: /
 - name: About
   link: /about.html
+- name: Blog
+  link: /blog.html
   
   <nav>
   {% for item in site.data.navigation %}
@@ -10,3 +12,4 @@
     </a>
   {% endfor %}
 </nav>
+
